@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "lib": ["DOM", "ES2016"],
+        "target": "ES6",
+        "types": ["reflect-metadata"],
+        "noImplicitAny": true,
+        "strict": true,
+        "noImplicitThis": true,
+        "experimentalDecorators": true,
+        "strictNullChecks": true
+    }
+}

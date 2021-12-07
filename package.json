@@ -1,0 +1,23 @@
+{
+  "name": "yideng_ts_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only ./src/*",
+    "build": "tsx ./src/demo.js",
+    "client:dev": "webpack --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "quicktype": "^15.0.260",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  }
+}

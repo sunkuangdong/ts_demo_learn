@@ -1,0 +1,11 @@
+{
+    "greeting": "Welcome to quicktype!",
+    "instructions": [
+        1,
+        "Or choose a sample above",
+        {
+            "1": 1
+        },
+        "chosen language to parse the sample data"
+    ]
+}
